@@ -1,0 +1,5 @@
+<li>
+    <%= todo.description %><br>
+    <strong>priority: </strong><%= todo.priority %><br>
+    <%= link_to "done", todo_path(todo), method: 'delete' %>
+</li>
