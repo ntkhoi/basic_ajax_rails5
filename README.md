@@ -220,7 +220,8 @@ Tương tự add remote: true to link_to and handle response như trên .
 
 
 ##### Source code available in [Basic ajax rails5](https://github.com/ntkhoi/basic_ajax_rails5)
- 
+
+##### Live demo in [chat_heroku](https://guarded-crag-77972.herokuapp.com)
  
 
 
