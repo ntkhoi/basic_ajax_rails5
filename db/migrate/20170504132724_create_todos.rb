@@ -1,8 +1,8 @@
 class CreateTodos < ActiveRecord::Migration[5.1]
   def change
-    create_table :todos do |t|
-      t.string  :description
-      t.string  :priority
+    create_table :messages do |t|
+      t.string  :body
+     
       t.timestamps null: false
     end
   end

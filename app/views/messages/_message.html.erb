@@ -1,0 +1,4 @@
+<li id="<%= message.id %>">
+    <%= message.body %><br>
+    <%= link_to "done", message_path(message) , remote: true , method: 'delete' %>
+</li>

@@ -12,9 +12,8 @@
 
 ActiveRecord::Schema.define(version: 20170504132724) do
 
-  create_table "todos", force: :cascade do |t|
-    t.string "description"
-    t.string "priority"
+  create_table "messages", force: :cascade do |t|
+    t.string "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
